@@ -46,4 +46,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 
         return employeeRepository.save(employee);
     }
+
+    @Override
+    public int getNumberOfReports(String employeeId) {
+        return 0;
+    }
 }
